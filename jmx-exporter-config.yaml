@@ -1,0 +1,6 @@
+startDelaySeconds: 0
+lowercaseOutputName: true
+lowercaseOutputLabelNames: true
+rules:
+  - pattern: "kafka.streams<type=(.+), client-id=(.+)><>(.+)"
+  - pattern: "kafka.consumer<type=(.+), client-id=(.+)><>(.+)"

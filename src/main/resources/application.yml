@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: streams-JMX-based-monitoring-demo
+  kafka:
+    streams:
+      application-id: streams-JMX-based-monitoring-demo
+      bootstrap-servers: kafka:9092
+      properties:
+        default.key.serde: 'org.apache.kafka.common.serialization.Serdes$StringSerde'
+        default.value.serde: 'org.apache.kafka.common.serialization.Serdes$StringSerde'
